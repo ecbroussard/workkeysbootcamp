@@ -1,0 +1,81 @@
+/*Default styles*/
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	background-color: #677243;
+	color: white;
+	padding: .5rem;
+	border-radius: .5rem;
+}
+
+#formcontainer {
+	background-color: #677243;
+	padding: .5rem;
+	border-radius: .5rem;
+}
+
+h1 {
+	color: #30302c;
+}
+
+ul {
+	list-style-image: url('../images/greenstar.png');
+}
+
+ul li ul {
+	list-style-type: disc;
+}
+
+#mplogo, .wkbclogo, #wkbc3d {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#samplebutton {
+	background-color: #677243;
+	border-radius: 50%;
+	background-image: url('../images/greencircle.png');
+	padding: .5rem;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#samplebutton p {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header {
+	background-image: url(../images/headerbackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Desktop styles*/
+
+/*body {
+	background-color: #30302c;
+}
+
+#container {
+	background-color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
