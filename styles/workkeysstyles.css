@@ -10,6 +10,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	background-color: #f4e5d0;
+	font-size: 150%;
+	font-weight: 500;
 }
 
 #container {
@@ -19,42 +21,44 @@ body {
 h2 {
 	background-color: #677243;
 	color: white;
-	padding: 1.5rem;
-	border-radius: 1rem;
+	padding: .25em;
+	padding-left: .5em;
+	border-radius: .5em;
 	font-family: 'Patua One', cursive;
-	font-size: 125%;
-	letter-spacing: .175rem;
+	font-size: 140%;
+	font-weight: normal;
 }
 
 #formcontainer {
 	background-color: #677243;
-	padding: 3rem;
-	border-radius: 1rem;
+	padding: .25em;
+	border-radius: .25em;
 	color: white;
 	font-size: 300%;
-	margin-top: 4rem;
+	margin: .5em;
 }
 
 #formcontainer p {
 	text-align: center;
-	font-size: 50%;
-	margin-bottom: 2rem;
-}
-
-form {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 40%;
 }
 
 h1 {
+	text-align: center;
+	font-size: 190%;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	color: #30302c;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 #parentul {
 	list-style-image: url('../images/greenstar.png');
-	margin-left: 4rem;
-	margin-bottom: 4rem;
+}
+
+#parentul li {
+	padding-left: .5em;
 }
 
 
@@ -63,37 +67,38 @@ h1 {
 	list-style-image: none;
 }
 
-#developers p {
-	margin-left: 2rem;
-	margin-right: 2rem;
+li {
+	padding-top: .25em;
 }
 
-#mplogomobile, #mplogodesktop .wkbclogo, #wkbc3d {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+#parentul>li:first-child {
+	padding-top: 0;
+}
+
+#developers p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#mplogo, .wkbclogo, #wkbc3d {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .wkbclogo {
 	width: 90%;
 }
 
-#mplogomobile {
-	width: 60%;
-	padding-top: 8rem;
-	padding-bottom: 15rem;
+#mplogo {
+	width: 70%;
+	padding-top: 12%;
+	padding-bottom: 22%;
 }
 
 #wkbc3d {
-	margin-bottom: 5rem;
-}
-
-h1 {
-	text-align: center;
-	font-size: 500%;
-	margin-top: 6rem;
-	margin-bottom: 6rem;
-	color: #30302c;
+	width: 70%;
+	margin-bottom: 5em;
 }
 
 #samplebutton {
@@ -106,8 +111,8 @@ h1 {
 	position: absolute;
 	background-repeat: no-repeat;
 	z-index: 2;
-	bottom: -58rem;
-	left: 38rem;
+	bottom: -58em;
+	left: 38em;
 }
 
 #samplebutton p {
@@ -119,85 +124,72 @@ h1 {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1rem;
+	padding-top: 1em;
 }
 
 header {
 	background-image: url(../images/mobileheader.png);
 	background-size: 100%;
-	margin-bottom: 3rem;
+	background-repeat: no-repeat;
 }
 
 footer {
 	background-image: url(../images/mobilefooter.png);
 	background-size: 100%;
+	background-repeat: no-repeat;
+/*	padding-top: 5em;*/
 }
 
 #contentmain {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
-footer p {
+#disclaimer {
 	color: white;
 	font-size: 70%;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	padding-bottom: 3rem;
+	font-weight: normal;
+	padding-top: 3em;
+	padding-bottom: 2em;
+	text-align: center;
 	margin-bottom: 0;
-	margin-top: 13rem;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #scheduling {
 	color: #30302c;
-	font-size: 200%;
+	font-size: 125%;
 	text-align: center;
-	margin-bottom: 4rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
-}
-
-footer {
-	padding-top: 5rem;
+	margin-bottom: 2em;
+	padding-left: .25em;
+	padding-right: .25em;
 }
 
 #dogtag {
 	background-image: url(../images/dogtag.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	position: absolute;
 }
 
 #dogtag p {
 	text-align: center;
 	font-family: 'Patua One', cursive;
-	font-size: 300%;
-	letter-spacing: .175rem;
 	color: #30302c;
-	padding-left: 8rem;
-	padding-right: 4rem;
-	padding-top: 2.5rem;
-	padding-bottom: 4rem;
-	margin: 0;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 4.5vw;
+	padding-top: 1em;
+	height: 4em;
 }
 
-
-
-/*tablet styles*/
-
-@media only screen and (max-width: 700px) {
-	#mplogodesktop {
-		display: none;
-	}
+#samplebutton {
+	display: none;
 }
 
-/*@media only screen and (min-width: 700px) {
-	header {
-		background-image: url(../images/desktopheader.png);
-		background-repeat: no-repeat;
-	}
-*/
-	#mplogodesktop {
-		display: none;
-	}
+a {
+	text-decoration: none;
+	color: #677243;
 }
