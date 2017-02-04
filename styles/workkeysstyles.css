@@ -10,7 +10,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	background-color: #f4e5d0;
-	font-size: 150%;
+	font-size: 3.5vw;
 	font-weight: 500;
 }
 
@@ -25,27 +25,31 @@ h2 {
 	padding-left: .5em;
 	border-radius: .5em;
 	font-family: 'Patua One', cursive;
-	font-size: 140%;
+	font-size: 5vw;
 	font-weight: normal;
 }
 
 #formcontainer {
 	background-color: #677243;
-	padding: .25em;
-	border-radius: .25em;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .25em;
+	border-radius: .5em;
 	color: white;
-	font-size: 300%;
 	margin: .5em;
 }
 
 #formcontainer p {
 	text-align: center;
-	font-size: 40%;
+	font-size: 4vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1 {
 	text-align: center;
-	font-size: 190%;
+	font-size: 7vw;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	color: #30302c;
@@ -75,6 +79,10 @@ li {
 	padding-top: 0;
 }
 
+#developers {
+	margin-bottom: 2em;
+}
+
 #developers p {
 	margin-left: 1em;
 	margin-right: 1em;
@@ -98,7 +106,7 @@ li {
 
 #wkbc3d {
 	width: 70%;
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 }
 
 #samplebutton {
@@ -115,18 +123,6 @@ li {
 	left: 38em;
 }
 
-#samplebutton p {
-	color: white;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 330%;
-	font-weight: bold;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 1em;
-}
-
 header {
 	background-image: url(../images/mobileheader.png);
 	background-size: 100%;
@@ -137,7 +133,6 @@ footer {
 	background-image: url(../images/mobilefooter.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-/*	padding-top: 5em;*/
 }
 
 #contentmain {
@@ -147,7 +142,7 @@ footer {
 
 #disclaimer {
 	color: white;
-	font-size: 70%;
+	font-size: 2.5vw;
 	font-weight: normal;
 	padding-top: 3em;
 	padding-bottom: 2em;
@@ -160,7 +155,7 @@ footer {
 
 #scheduling {
 	color: #30302c;
-	font-size: 125%;
+	font-size: 4.5vw;
 	text-align: center;
 	margin-bottom: 2em;
 	padding-left: .25em;
