@@ -6,10 +6,13 @@ img {
 	width: auto;
 }
 
+#logohorizontal {
+	display: none;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
-	background-color: #f4e5d0;
 	font-size: 3.5vw;
 	font-weight: 500;
 }
@@ -88,13 +91,13 @@ li {
 	margin-right: 1em;
 }
 
-#mplogo, .wkbclogo, #wkbc3d {
+#mplogo, #logovertical, #wkbc3d {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.wkbclogo {
+#logovertical {
 	width: 90%;
 }
 
@@ -107,20 +110,6 @@ li {
 #wkbc3d {
 	width: 70%;
 	margin-bottom: 2em;
-}
-
-#samplebutton {
-	background-image: url('../images/greencircle.png');
-	width: 35%;
-	padding-bottom: 20%;
-	margin-left: auto;
-	margin-right: auto;
-	background-size: 100%;
-	position: absolute;
-	background-repeat: no-repeat;
-	z-index: 2;
-	bottom: -58em;
-	left: 38em;
 }
 
 header {
@@ -188,3 +177,143 @@ a {
 	text-decoration: none;
 	color: #677243;
 }
+
+/*desktop styles */
+
+@media only screen and (min-width: 800px) {
+	#container {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body {
+		background-color: #30302c;
+	}
+
+	#logovertical {
+		display: none;
+	}
+
+	#logohorizontal {
+		display: block;
+		width: 60%;
+		float: right;
+		margin-right: 1.5em;
+		margin-top: 3em;
+	}
+
+	#wkbc3d {
+		width: 30%;
+		top: -4em;
+		position: relative;
+		margin-bottom: -3em;
+	}
+
+	h1 {
+		font-size: 2.25vw;
+		float: right;
+		margin-right: .5em;
+	}
+
+	#productinfo {
+		float: left;
+		width: 55%;
+		padding-left: 2em;
+	}
+
+	#formcontainer {
+		width: 40%;
+		float: right;
+		margin-right: -3em;
+		margin-top: 0;
+	}
+
+	body {
+		font-size: 1.5vw;
+	}
+
+	h2 {
+		font-size: 2vw;
+	}
+
+	#formcontainer p {
+		font-size: 1.5vw;
+	}
+
+	#getworkkeys {
+		font-size: 3vw;
+		margin-top: 0;
+		margin-bottom: .5em;
+	}
+
+	#scheduling {
+		font-size: 2vw;
+		margin-left: 1em;
+	}
+
+	header {
+		background-image: url(../images/desktopheader.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	footer {
+		background-image: url(../images/desktopfooter.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		clear: both;
+		padding-bottom: 2em;
+	}
+
+	#mplogo {
+		width: 20%;
+		padding-top: 8%;
+		padding-bottom: 13%;
+	}
+
+	#parentul {
+		list-style-image: url('../images/greenstardt.png');
+		margin-bottom: 3em;
+	}
+
+	#productinfo h2:first-child {
+		margin-top: 0;
+	}
+
+	#intro {
+		margin-bottom: 1.5em;
+	}
+
+	#bottomcta {
+		width: 55%;
+	}
+
+	#dogtag p {
+		font-size: 3vw;
+		height: 4em;
+		margin-left: 7.5em;
+		width: 60%;
+		margin-bottom: 0;
+	}
+
+	#disclaimer {
+		font-size: 1vw;
+		padding: 0;
+	}
+
+/*	#disclaimer {
+		font-size: 1vw;
+		text-align: center;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;*/
+
+	}
+
+	#dogtag {
+		background-image: url(../images/dogtagdt.png);
+	}
+}
+
