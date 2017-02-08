@@ -189,6 +189,7 @@ a {
 
 	body {
 		background-color: #30302c;
+		font-size: 1.5vw;
 	}
 
 	#logovertical {
@@ -227,10 +228,6 @@ a {
 		float: right;
 		margin-right: -3em;
 		margin-top: 0;
-	}
-
-	body {
-		font-size: 1.5vw;
 	}
 
 	h2 {
@@ -352,10 +349,13 @@ a {
 
 	#dogtag p {
 		font-size: 37px;
-		}
 	}
 
 	#disclaimer {
+		font-size: 12px;
+	}
+
+	body {
 		font-size: 12px;
 	}
 }
