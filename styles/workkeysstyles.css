@@ -21,15 +21,18 @@ body {
 	background-image: url('../images/bgforwk.jpg');
 }
 
+
 h2 {
 	background-color: #677243;
 	color: white;
-	padding: .25em;
-	padding-left: .5em;
 	border-radius: .5em;
 	font-family: 'Patua One', cursive;
 	font-size: 5vw;
 	font-weight: normal;
+	display: block;
+	padding: 0.5rem 1rem;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #formcontainer {
